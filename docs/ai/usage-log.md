@@ -9,6 +9,7 @@
 | 2026-08-17 | Codex + OpenSpec 1.9.0 `openspec-update-change` skill | 将规划工件正文转换为简体中文并保持结构关键字 | `003-language-and-workflow.md`、`.agents/skills/openspec-update-change/SKILL.md` | 四个规划工件完成中文化并再次通过严格校验 | 无 |
 | 2026-08-17 | Codex + OpenSpec 1.9.0 `openspec-apply-change` skill | 按任务清单实现、测试和记录本项目 | `004-openspec-apply.md`、`.agents/skills/openspec-apply-change/SKILL.md` | 完成 Spring Boot CRUD 服务、Strategy/Factory、统一错误、46 个自动化测试及文档；Java 21.0.2 下 `./mvnw clean verify` 成功，JaCoCo 行覆盖率 98.59%；五个 API 冒烟测试通过 | 用户提前确认 OpenSpec 规格使用中文；实施阶段无额外人工代码修改 |
 | 2026-08-17 | Codex（GPT-5；具体部署快照未显示） | 仅修改项目名称 | `005-rename-project.md` | 将 Maven artifact/name、Spring application name 和 README 标题改为 `library-service`，不改 Java 包名、API、目录或历史 OpenSpec 归档；Java 21 下 `./mvnw clean verify` 成功，46 个测试通过 | 用户确认使用对话中的示例名称 |
+| 2026-08-17 | Codex + GitHub CLI 2.96.0 | 创建并发布 GitHub 仓库 | `006-github-publish.md` | 创建公开仓库 `a16496528/bookcatalog`，将已验证的项目以提交 `f356f5c` 首次推送到 `main`；构建产物、H2 数据、IDE 文件和无关工具文件未发布 | 用户明确授权创建公开仓库 |
 
 ## 最终验证记录
 
